@@ -55,6 +55,7 @@ Build a component containing the following elements:
 - The layout of this component should be something like the screenshot below.
   - In particular, `LB` must occupy all the remaining space.
 
+![](./example.png)
 
 ## Rules
 The rules are as follows:
