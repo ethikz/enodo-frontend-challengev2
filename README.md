@@ -68,7 +68,9 @@ The rules are as follows:
 
 
 # Download, Setup, and submission
-You can either fork this project or clone/download it as a zip file. For submission you can provide a link to the forked project or send it as a zip file.
+You can either fork this project by clicking on the `Use this Template` button or clone/download it as a zip file. 
+
+For submission you can provide a link to the forked project or send it as a zip file.
 
 ## Project setup
 - Install [VueCLI](https://cli.vuejs.org/guide/installation.html)
