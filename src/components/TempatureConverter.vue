@@ -12,7 +12,7 @@
       <label for="celsius">Celsius</label>
       <el-input
         id="celsius"
-        placeholder="0"
+        :placeholder="c"
         v-model="c"
         @change="convertC()"
         @input="convertC()"
@@ -24,7 +24,7 @@
       <label for="fahrenheit">Fahrenheit</label>
       <el-input
         id="fahrenheit"
-        placeholder="0"
+        :placeholder="f"
         v-model="f"
         @change="convertF()"
         @input="convertF()"
