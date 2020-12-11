@@ -32,11 +32,16 @@
       </el-button>
     </div>
 
-    <el-slider
-      @change="onChange( value )"
-      @input="onInput( value )"
-      v-model="value">
-    </el-slider>
+    <el-row type="flex" class="row-bg" justify="center">
+      <el-col :span="12">
+        <el-slider
+          @change="onChange( value )"
+          @input="onInput( value )"
+          v-model="value"
+          class="slider">
+        </el-slider>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
@@ -128,5 +133,9 @@ export default {
     font-size: 200px;
     line-height: 1;
     margin-bottom: 40px;
+  }
+
+  .slider {
+    margin-top: 2rem
   }
 </style>
