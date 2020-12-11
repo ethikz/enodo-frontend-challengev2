@@ -6,13 +6,15 @@
     <h2 class="title">
       {{ counter }}
     </h2>
-    
-    <el-button @click="incrementCounter">
-      Count Up
-    </el-button>
+
+    <!-- Here I could have used the el-input-number component but decided to do a custom one for sake of the exercise -->
     
     <el-button @click="decrementCounter">
       Count Down
+    </el-button>
+    
+    <el-button @click="incrementCounter">
+      Count Up
     </el-button>
   </div>
 </template>
@@ -23,11 +25,16 @@ export default {
 
   data() {
     return {
-      counter: 0
+      counter: 0,
+      num: 1
     }
   },
 
   methods: {
+    handleChange( value ) {
+      console.log( value );
+    },
+
     incrementCounter() {
       this.counter++;
     },
